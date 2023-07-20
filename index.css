@@ -1,0 +1,282 @@
+
+/*navBar*/
+#navbar{
+    background-color: #D8ACCD;
+    box-shadow: 0px 0px 5px gray;
+}
+#navItem{
+    color: white;
+    font-weight: 600;
+    text-shadow: 0px 0px 10px plum;
+}
+#navItem{
+    margin-left: 10px;
+}
+#logo{
+    width: 50px;
+}
+#navbar>div>form>input{
+    border-radius: 20px;
+    padding-left: 5px;
+    border: 3px solid white;
+}
+#navbar>div>form>button{
+    background-color: #90A9B7;
+    border-radius: 20px;
+    margin-left: 5px;
+    color: white;
+    font-weight: 600;
+}
+#searchBox{
+    width: 170px;
+}
+
+/*heroSection*/
+#hero::before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-image: url(images/background.jpg);
+}
+#hero > *{
+    position: relative;
+}
+#hero{
+	background-color: #be9467;
+	padding: 20px;
+    overflow: hidden;
+    height: 360px;
+    position: relative;
+}
+#heroDetils{
+    padding: 40px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+#heroDetils > p{
+    font-family: arial, helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 30px;
+}
+#heroHeader{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+    text-shadow: 0px 0px 5px gray;
+    display: inline-block;
+    margin-bottom: 0;
+
+}
+#heroHeaderDes{
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    color: white;
+    text-shadow: 0px 0px 5px gray;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#heroDetils > h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 0px 0px 5px gray;
+    font-size: 15.5px;
+    font-weight: 600;
+    display: inline-block;
+    width: 50%;
+    border-left: 5px solid white;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+#heroDetils > button{
+    color: white;
+    background-color: #D8ACCD;
+    margin-left: 20px;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.250);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.250);
+}
+#images > div{
+    overflow: hidden;
+    position: relative;
+}
+#img1{
+    border-radius:200px;
+    width: 450px;
+    height: 450px;
+
+    right: -100px;
+    top: -70px;
+}
+#img2{
+    border-radius: 175px;
+    width: 300px;
+    height: 300px;
+
+    left: -80px;
+    top: -500px;
+}
+#img3{
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
+
+    left: -10px;
+    top: -580px;
+}
+#img4{
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+
+    left: -150px;
+    top: -880px;
+}
+#images>div{
+    border: 5px solid #edd7ab;
+}
+@media only screen and (max-width: 991px){
+    #images{
+        display: none;
+    }
+    #heroDetils{
+        text-align: center;
+    }
+    #heroDetils > *{
+        text-align: left;
+    }
+    #heroDetils > p{
+        display: none;
+    }
+    #heroDetils{
+        padding: 40px;
+    }
+    #hero{
+        background-color: #be9467;
+    }
+    #hero::before{
+        background-image: url(images/background.jpg);
+    }
+    #heroDetils > h5{
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 575px){
+    #heroDetils > h5{
+        width: 100%;
+    }
+}
+
+/*CardsSection*/
+.card{
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgb(85, 85, 85);
+}
+.card > div > div{
+    background-color: #7aaaca;
+}
+#cardImage > img{
+    border-radius: 0px;
+}
+#cardImage{
+    overflow: hidden;
+    height: 256px;
+}
+#cardContent{
+    padding: 15px;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+#cardContent > p{
+    height: 120px;
+}
+#cardContent > h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+    text-shadow: 0px 0px 5px gray;
+}
+#cardContent > p{
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 0px 5px gray;
+}
+#cardContent > button{
+    color: white;
+    background-color: #D8ACCD;
+    margin-left: 20px;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.250);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.250);
+}
+/*FooterSection*/
+.footer{
+    background-color: #D8ACCD;
+    padding: 35px;
+}
+.footer > div > div > h5{
+    display: inline-block;
+    margin-top: 10px;
+    text-shadow: 0px 0px 5px gray;
+}
+.footer > div > div > ul{
+    padding-left: 7px;
+    border-left: 3px solid white;
+}
+.footer > div > div > ul > li{
+    list-style-type: none;
+}
+.footer > div > div > ul > li > a{
+    color: white;
+    text-decoration: line;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px gray;
+}
+.footer > div > p{
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
+    width: 100%;
+    padding-top: 10px;
+    text-shadow: 0px 0px 3px gray;
+}
+#footer-logo{
+  width: 25px;
+}
+.footer-title{
+    color: white;
+}
+#brandName{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+/*universal*/
+#buttons{
+    width: 100%;
+    text-align: center;
+}
+#buttons > button{
+    color: white;
+    background-color: #dd87c8;
+    margin-left: 20px;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.250);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.250);
+}
